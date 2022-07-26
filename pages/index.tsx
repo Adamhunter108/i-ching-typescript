@@ -20,7 +20,6 @@ const Home: NextPage = () => {
 
         <h1>☯️</h1>
 
-        <h1>Can I put shit in front of this background?</h1>
 
       </main>
 
