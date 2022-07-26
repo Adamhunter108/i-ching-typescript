@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 import ParticleBackGround from '../components/ParticleBackGround'
@@ -18,9 +19,20 @@ const Home: NextPage = () => {
       <main>
         <ParticleBackGround />
 
-        <h1>☯️</h1>
+        <h1 className="text-5xl pt-10 pl-5">☯️</h1>
 
+        <h2 className="text-5xl">Welcome</h2>
 
+        <div className="flex justify-center">
+          <Link href="/get-hex">
+            <button
+                type="button"
+                className="inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-indigo-600 bg-white hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+                🌘 Daily Digital Divination 🌒
+            </button>
+          </Link>
+        </div>
       </main>
 
     </div>
