@@ -24,11 +24,11 @@ export default function ParticleBackGround() {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                background: {
-                color: {
-                    value: "#000000",
-                },
-                },
+                // background: {
+                // color: {
+                //     value: "#000000",
+                // },
+                // },
                 fpsLimit: 120,
                 interactivity: {
                 events: {
