@@ -54,7 +54,7 @@ export default function GetHex() {
                         <p className="w-2/4 text-center">{value === data.id ? data.description : null}</p>
                     </div>
                 </li>
-            ))}
+                ))}
         </ul>
 
 
@@ -62,7 +62,7 @@ export default function GetHex() {
             <div className="flex justify-center pt-96">
                 <button
                     type="button"
-                    className="inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-indigo-600 bg-white hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="inline-flex items-center px-5 py-2 border border-transparent text-xl font-medium rounded-full shadow-sm text-indigo-600 bg-white hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     onClick={handleDivinateClick}
                 >
                     🌘 Divinate 🌒

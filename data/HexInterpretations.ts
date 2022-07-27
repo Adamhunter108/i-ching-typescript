@@ -1,4 +1,13 @@
-const HexInterpretations = [
+interface HexData {
+    id: number
+    title: string
+    description: string
+    image: string
+    upper: string
+    lower: string
+}
+
+const HexInterpretations: HexData[] = [
     {
         id: 1,
         title: 'The Creative',
