@@ -5,7 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 15s linear infinite',
+      },
+      fontFamily: {
+        carter: ['Carter One', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
