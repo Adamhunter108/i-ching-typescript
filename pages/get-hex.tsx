@@ -30,7 +30,7 @@ export default function GetHex() {
   return (
     <div>
         <Head>
-            <title>I Ching</title>
+            <title>Consult the I Ching: the Book of Changes</title>
             <meta name="description" content="Consult the Book of Changes, get your daily I Ching reading and share your results." />
         </Head>
 
@@ -76,7 +76,7 @@ export default function GetHex() {
                     <p className="flex justify-center text-sm">{value === data.id ? `Hexagram # ${value}` : null}</p>
 
                         {/* TITLE */}
-                    <p className="flex justify-center font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-indigo-200 to-teal-200">{value === data.id ? data.title : null}</p>
+                    <p className="flex justify-center font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-b from-indigo-200 to-teal-200">{value === data.id ? data.title : null}</p>
 
                         {/* DESCRIPTION */}
                     <div className="flex justify-center">
@@ -92,7 +92,7 @@ export default function GetHex() {
             <div className="flex justify-center pt-56">
                 <button
                     type="button"
-                    className="animate-pulse inline-flex items-center px-5 py-2 border border-transparent text-xl font-medium rounded-full shadow-sm text-indigo-600 bg-white/90 hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="animate-pulse inline-flex items-center px-5 py-2 border border-transparent text-xl rounded-full shadow-sm text-indigo-600 bg-white/90 hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     onClick={handleDivinateClick}
                 >
                     🌘 Divinate 🌒
@@ -113,13 +113,13 @@ bookofchanges.app`}>
                 {isCopied ?
                     <button
                         type="button"
-                        className="inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-indigo-600 bg-white/70 hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" 
+                        className="inline-flex items-center px-5 py-2 border border-transparent text-base rounded-full shadow-sm text-indigo-600 bg-white/70 hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" 
                         onClick={handleCopyClick}>
                             Copied! Paste anywhere
                     </button> 
                     : <button 
                         type="button"
-                        className="inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-indigo-600 bg-white/70 hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" 
+                        className="inline-flex items-center px-5 py-2 border border-transparent text-base rounded-full shadow-sm text-indigo-600 bg-white/70 hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" 
                         onClick={handleCopyClick}>
                             Share reading
                             <svg className="w-6 h-5" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

@@ -9,8 +9,8 @@ export default function Document() {
             <meta name="robots" content="index, follow" />
 
                 {/* OPEN GRAPH */}
-            <meta property="og:site_name" content="I Ching" key="ogsitename" />
-            <meta property="og:title" content="I Ching" key="og:title" />
+            <meta property="og:site_name" content="I Ching: the Book of Changes" key="ogsitename" />
+            <meta property="og:title" content="I Ching: the Book of Changes" key="og:title" />
             <meta property="og:description" content="Consult the Book of Changes with a daily I Ching reading." key="ogdesc" />
             {/* <meta property="og:url" content="https://www.bookofchanges.app" key="ogurl" /> */}
             {/* <meta property="og:image" content="https://www.bookofchanges.app/images/yinyang.png" key="ogimage" /> */}
@@ -28,7 +28,8 @@ export default function Document() {
             <meta name="theme-color" content="#000000" />
 
                 {/* GOOGLE FONT CDN */}
-                <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400&display=swap" rel="stylesheet" />
 
         </Head>
         <body>

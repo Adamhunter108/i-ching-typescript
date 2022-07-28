@@ -10,7 +10,8 @@ module.exports = {
         'spin-slow': 'spin 15s linear infinite',
       },
       fontFamily: {
-        carter: ['Carter One', 'sans-serif']
+        carter: ['Carter One', 'sans-serif'],
+        raj: ['Rajdhani', 'sans-serif'],
       },
     },
   },
