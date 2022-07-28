@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# I Ching ☯️
+
+## ℹ️ `About:` 
+### What is the I Ching?
+The I Ching, usually translated to Book of Changes, dates back to 1,000 BC. This several thousand year old book is regarded as a foundational text of eastern wisdom and philosophy. Originally a divination manual, the I Ching is meant to provide insight and guidance for moral decision making. An I Ching reading comes in the form of a Hexagram which consists of six lines which are either broken (yin) or unbroken (yang).
+
+Back in the day, people would throw yarrow stalks to calculate and construct their Hexagrams. Tossing coins, usually three at a time, is a more modern and convenient method. Those analog methods require calculations and often involve interpreting changing lines. To use this app, all you need to do is press the Divinate button. We recommend doing only one reading a day and sitting with the result. Each Hexagram is unique and has a number. Feel free to google your Hexagram number to read more about it.
+
+---
+
+## 📚 `Tech Stack:`
+> This is a `Next.js` web-app written in `TypeScript`, styled with `Tailwind CSS` and deployed continuously to `Vercel`. 
+
+| TypeScript | Node.js | React | Next.js | Tailwind CSS |
+| :----: | :----: | :----: | :----: | :----: | 
+| <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" style="background-color:white;padding:10px;" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" width="50" height="50"/> |
+
+---
+
+## 💻 `Local Development:`
+### ❗️ `Requirements:`
+
+* Node.js <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="25" height="25"/> 
+
+```bash
+$ # install dependencies
+$ npm i
+$ # start local development node.js server
+$ npm run develop
+$ # or
+$ yarn develop
+```
+
+
+<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -31,4 +65,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
