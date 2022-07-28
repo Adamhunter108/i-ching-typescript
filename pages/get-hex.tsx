@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import HexInterpretations from '../data/HexInterpretations'
 import ParticleBackGround from '../components/ParticleBackGround'
+import Nav from '../components/Nav'
 
 export default function GetHex() {
 
@@ -26,6 +27,8 @@ export default function GetHex() {
 
   return (
     <div>
+        <Nav />
+        
         <ParticleBackGround />
 
             {/* YIN YANG SVG */}
@@ -36,16 +39,17 @@ export default function GetHex() {
         </div>
 
         <div className="flex justify-center">
-            {value ? null : <p className="font-semibold">kill the noise</p>}
+            {value ? null : <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-b from-indigo-200 to-teal-200">kill the noise</p>}
         </div>
+
 
         <ul className="">
             {HexInterpretations.map((data) => (
                 <li key={data.id} className="">
 
                         {/* UPPER & LOWER TRIGRAMS */}
-                    <div className="">
-                        <p className="flex justify-center">{value === data.id ? `${data.upper} over ${data.lower}` : null}</p>
+                    <div className="flex justify-center">
+                        <p className="">{value === data.id ? `${data.upper} over ${data.lower}` : null}</p>
                     </div>
 
                         {/* IMAGE */}
@@ -55,6 +59,8 @@ export default function GetHex() {
                             alt='Hexagram'
                             width={150}
                             height={170}
+                            blurDataURL={data.image}
+                            placeholder="blur"
                         /> : null}
                     </span>
 
@@ -62,7 +68,7 @@ export default function GetHex() {
                     <p className="flex justify-center text-sm">{value === data.id ? `Hexagram # ${value}` : null}</p>
 
                         {/* TITLE */}
-                    <p className="flex justify-center font-semibold text-3xl">{value === data.id ? data.title : null}</p>
+                    <p className="flex justify-center font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-indigo-200 to-teal-200">{value === data.id ? data.title : null}</p>
 
                         {/* DESCRIPTION */}
                     <div className="flex justify-center">
@@ -74,8 +80,9 @@ export default function GetHex() {
         </ul>
 
 
+
         {value ? null :
-            <div className="flex justify-center pt-96">
+            <div className="flex justify-center pt-56">
                 <button
                     type="button"
                     className="inline-flex items-center px-5 py-2 border border-transparent text-xl font-medium rounded-full shadow-sm text-indigo-600 bg-white/90 hover:text-gray-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
