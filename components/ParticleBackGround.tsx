@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 export default function ParticleBackGround() {
-    const particlesInit = async (main) => {
+    const particlesInit = async (main: any) => {
         console.log(main);
     
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -12,7 +12,7 @@ export default function ParticleBackGround() {
         await loadFull(main);
       };
     
-      const particlesLoaded = (container) => {
+      const particlesLoaded = (container: any) => {
         console.log(container);
       };
 
