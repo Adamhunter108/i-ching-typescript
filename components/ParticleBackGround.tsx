@@ -22,7 +22,7 @@ export default function ParticleBackGround() {
         <Particles
             id="tsparticles"
             init={particlesInit}
-            loaded={particlesLoaded}
+            // loaded={particlesLoaded}
             options={{
                 // background: {
                 // color: {
