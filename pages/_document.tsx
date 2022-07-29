@@ -8,6 +8,9 @@ export default function Document() {
             <link rel="icon" type="image/ico" href="/favicon.ico" />
             <meta name="robots" content="index, follow" />
 
+                {/* PWA MANIFEST */}
+            <link rel="manifest" href="/manifest.json" />
+
                 {/* OPEN GRAPH */}
             <meta property="og:site_name" content="I Ching: the Book of Changes" key="ogsitename" />
             <meta property="og:title" content="I Ching: the Book of Changes" key="og:title" />
