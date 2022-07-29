@@ -76,11 +76,12 @@ export default function GetHex() {
                     <p className="flex justify-center text-sm">{value === data.id ? `Hexagram # ${value}` : null}</p>
 
                         {/* TITLE */}
-                    <p className="flex justify-center font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-b from-indigo-200 to-teal-200">{value === data.id ? data.title : null}</p>
-
+                    <div className="flex justify-center">
+                        <p className="text-center font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-b from-indigo-200 to-teal-200">{value === data.id ? data.title : null}</p>
+                    </div>
                         {/* DESCRIPTION */}
                     <div className="flex justify-center">
-                        <p className="w-2/4 text-center">{value === data.id ? data.description : null}</p>
+                        <p className="w-4/5 lg:w-2/4 text-center">{value === data.id ? data.description : null}</p>
                     </div>
 
                 </li>
