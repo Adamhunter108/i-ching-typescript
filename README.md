@@ -6,14 +6,17 @@ The I Ching, usually translated to Book of Changes, dates back to 1,000 BC. This
 
 Back in the day, people would throw yarrow stalks to calculate and construct their Hexagrams. Tossing coins, usually three at a time, is a more modern and convenient method. Those analog methods require calculations and often involve interpreting changing lines. To use this app, all you need to do is press the Divinate button. We recommend doing only one reading a day and sitting with the result. Each Hexagram is unique and has a number. Feel free to google your Hexagram number to read more about it.
 
+
+View live project: [bookofchanges.app](https://www.bookofchanges.app/)
+
 ---
 
 ## 📚 `Tech Stack:`
 > This is a `Next.js` web-app written in `TypeScript`, styled with `Tailwind CSS` and deployed continuously to `Vercel`. 
 
-| TypeScript | Node.js | React | Next.js | Tailwind CSS |
+| TypeScript | Node.js | React | Tailwind CSS | Next.js |
 | :----: | :----: | :----: | :----: | :----: | 
-| <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" style="background-color:white;padding:10px;" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" width="50" height="50"/> |
+| <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" width="50" height="50"/> | <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" style="background-color:white;padding:10px;" width="50" height="50"/> | 
 
 ---
 
