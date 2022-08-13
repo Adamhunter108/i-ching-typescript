@@ -12,7 +12,7 @@ View live project: [bookofchanges.app](https://www.bookofchanges.app/)
 ---
 
 ## 📚 `Tech Stack:`
-> This is a `Next.js` web-app written in `TypeScript`, styled with `Tailwind CSS` and deployed continuously to `Vercel`. 
+* This is a `Next.js` web-app written in `TypeScript`, styled with `Tailwind CSS` and deployed continuously to `Vercel`. 
 
 | TypeScript | Node.js | React | Tailwind CSS | Next.js |
 | :----: | :----: | :----: | :----: | :----: | 
@@ -33,6 +33,11 @@ $ npm run develop
 $ # or
 $ yarn develop
 ```
+
+---
+---
+#### `Bonus` <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="25" height="25"/> 
+For a Python  CLI version of this app: [github.com/Adamhunter108/i-ching](https://github.com/Adamhunter108/i-ching)
 
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
