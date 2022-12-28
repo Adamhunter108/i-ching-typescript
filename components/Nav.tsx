@@ -1,7 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function Nav() {
+    const router = useRouter()
+    const currentRoute = router.asPath
 
     const [showSidebar, setShowSidebar] = React.useState<boolean>(false)
 
@@ -38,9 +41,9 @@ export default function Nav() {
                 
                 <Link href="/">
                     <a
-                    className="grid grid-cols-10 gap-1 text-gray-300 hover:bg-gray-700/40 hover:text-indigo-500 px-3 py-4 rounded-md font-medium text-xl"
+                        className={`${currentRoute === "/" ? "text-indigo-500" : "text-gray-300"} "justify-center grid grid-cols-10 gap-1 hover:bg-gray-700/40 hover:text-indigo-500 px-3 py-4 rounded-md text-xl font-medium"`}
                     >
-                        <svg className="w-7 h-7 text-indigo-500 hover:text-gray-200" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <svg className="w-7 h-7" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                             <path d="M511.8 287.6L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6L511.8 287.6z"/>
                         </svg>
                         Home
@@ -51,9 +54,9 @@ export default function Nav() {
 
                 <Link href="/about">
                     <a
-                    className="grid grid-cols-10 gap-1 text-gray-300 hover:bg-gray-700/40 hover:text-indigo-500 px-3 py-4 rounded-md text-xl font-medium"
+                        className={`${currentRoute === "/about" ? "text-indigo-500" : "text-gray-300"} "justify-center grid grid-cols-10 gap-1 hover:bg-gray-700/40 hover:text-indigo-500 px-3 py-4 rounded-md text-xl font-medium"`}
                     >
-                        <svg className="w-7 h-7 text-indigo-500 hover:text-gray-200" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <svg className="w-7 h-7" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/>
                         </svg>
                         About
