@@ -20,10 +20,10 @@ To use this app, all you need to do is press the Divinate button. We recommend d
 <br>
 <details>
 <summary>
-📲 How to install pwa app
+📲 How to install a pwa app
 </summary> 
 <br>🖥️ Desktop <br>
-Currently, Google Chrome is the only browser with PWA support desktop operating systems.  In Google Chrome, after the page loads there will be an option to install the app in the address bar next to the share and star icons.<br><br>  
+Currently, Google Chrome is the only browser with PWA support for desktop operating systems.  In Google Chrome, after the page loads there will be an option to install the app in the address bar next to the share and star icons.<br><br>  
 📱 Mobile <br>
 Safari iOS - Press the "Share" button and select "Add to Home Screen" from the popup.<br>
 Android Chrome - Press the "three dot" icon in the upper right to open the menu. Select "Add to Home screen".
