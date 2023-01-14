@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ichingbookofchanges-dev-95342-authRole",
+      "UnauthRoleArn": "arn:aws:iam::362517725348:role/amplify-ichingbookofchanges-dev-95342-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::362517725348:role/amplify-ichingbookofchanges-dev-95342-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-ichingbookofchanges-dev-95342-deployment",
+      "UnauthRoleName": "amplify-ichingbookofchanges-dev-95342-unauthRole",
+      "StackName": "amplify-ichingbookofchanges-dev-95342",
+      "StackId": "arn:aws:cloudformation:us-east-2:362517725348:stack/amplify-ichingbookofchanges-dev-95342/3dd63630-941b-11ed-a383-0293617c266a",
+      "AmplifyAppId": "doncpeao2f4d3"
+    }
+  }
+}
