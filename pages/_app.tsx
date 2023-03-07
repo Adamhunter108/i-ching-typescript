@@ -4,6 +4,10 @@ import { createBrowserSupabaseClient } from '@supabase/auth-helpers-nextjs'
 import { SessionContextProvider } from '@supabase/auth-helpers-react'
 import { useState } from 'react'
 
+import { Auth } from '@supabase/ui'
+import { supabase } from '../lib/supabaseClient'
+
+
 function MyApp({ Component, pageProps }: AppProps) {
     // Create a new supabase browser client on every first render.
     const [supabaseClient] = useState(() => createBrowserSupabaseClient())
@@ -13,10 +17,14 @@ function MyApp({ Component, pageProps }: AppProps) {
 
     // For supabase auth
     return (
-      <SessionContextProvider
-        supabaseClient={supabaseClient}
-        initialSession={pageProps.initialSession}
-      >
+      // <SessionContextProvider
+      //   supabaseClient={supabaseClient}
+      //   initialSession={pageProps.initialSession}
+      // >
+      //   <Component {...pageProps} />
+      // </SessionContextProvider>
+
+      <SessionContextProvider supabaseClient={supabaseClient}>
         <Component {...pageProps} />
       </SessionContextProvider>
     )    
